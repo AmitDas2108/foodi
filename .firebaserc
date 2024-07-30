@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "foodi-client-main",
+    "staging": "foodi-client-main"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
