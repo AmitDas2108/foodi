@@ -4,10 +4,10 @@ import { FaStar } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
-    <div className="section-container">
+    <div className="section-container bg-gradient-to-b from-0% from-[#ECFFE6] to-[#dceffc] to-100%">
       <div className="flex flex-col md:flex-row items-center justify-between gap-12">
         <div className="md:w-1/2">
-          <img src="/images/home/testimonials/testimonials.png" alt="" />
+          <img src="/images/home/testimonials/testimonialb.png" alt="" />
         </div>
         <div className="md:w-1/2">
           <div className="text-left md:w-4/5">

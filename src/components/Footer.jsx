@@ -5,7 +5,7 @@ const Footer = () => {
   const { isDarkMode } = useTheme();
   return (
     <div>
-      <footer className={`footer xl:px-24 py-10 px-4 text-base-content ${
+      <footer className={`footer xl:px-24 py-10 px-4 text-base-content bg-gradient-to-b from-0% from-[#F5EDED] to-[#FFFFFF] to-100% ${
           isDarkMode ? "dark" : "" // Apply dark mode class
         }`}>
         <aside>

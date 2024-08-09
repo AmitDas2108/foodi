@@ -23,7 +23,7 @@ const SampleNextArrow = (props) => {
 const SamplePrevArrow = (props) => {
   const { className, style, onClick } = props;
   return (
-    <div
+    <div 
       className={className}
       style={{ ...style, display: "block", background: "green" }}
       onClick={onClick}
@@ -84,7 +84,7 @@ const SpecialDishes = () => {
     prevArrow: <SamplePrevArrow />,
   };
   return (
-    <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 my-20 relative">
+    <div className="max-w-screen-2xl container mx-auto xl:px-24 bg-gradient-to-b from-0% from-[#ECFFE6] to-[#ECFFE6] to-100% px-4 py-20 relative">
        <div className='text-left'>
             <p className='subtitle'>Customer Favorites</p>
             <h2 className='title'>Popular Catagories</h2>

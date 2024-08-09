@@ -1,11 +1,11 @@
 import React from "react";
-import bannerImg from "/images/home/banner.png";
+import bannerImg from "/images/home/banner2.png";
 import { useTheme } from "../hooks/ThemeContext";
 
 const Banner = () => {
   const { isDarkMode } = useTheme();
   return (
-    <div className={`max-w-screen-2xl container mx-auto xl:px-24 bg-gradient-to-r from-0% from-[#FAFAFA] to-[#FCFCFC] to-100% ${isDarkMode ? 'dark' : ''}`}>
+    <div className={`max-w-screen-2xl container mx-auto xl:px-24 bg-gradient-to-b from-0% from-[#ECFFE6] to-[#a3dfff] to-100% ${isDarkMode ? 'dark' : ''}`}>
       <div className={`py-24 flex flex-col md:flex-row-reverse items-center justify-between gap-8 ${isDarkMode ? 'text-white' : ''}`}>
 
         {/* img */}
@@ -50,13 +50,13 @@ const Banner = () => {
                   />
                 
                 </div>
-                <p className="text-red">$18.00</p>
+                <p className="text-red">Rs. 190.00</p>
               </div>
             </div>
             <div className="bg-white px-3 py-2 rounded-2xl md:flex items-center gap-3 shadow-sm w-64 hidden">
               <img src="/images/home/b-food1.png" alt=""  className="rounded-2xl"/>
               <div className="space-y-1">
-                <h5>Spicy noodles</h5>
+                <h5>Gravy noodles</h5>
                 <div className="rating rating-sm">
                 <input
                     type="radio"
@@ -91,7 +91,7 @@ const Banner = () => {
                   />
                 
                 </div>
-                <p className="text-red">$18.00</p>
+                <p className="text-red">Rs.118.00</p>
               </div>
             </div>
           </div>
