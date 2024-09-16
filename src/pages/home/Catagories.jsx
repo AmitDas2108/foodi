@@ -11,7 +11,7 @@ const categoryItems = [
 const Catagories = () => {
     const { isDarkMode } = useTheme();
   return (
-    <div className={`max-w-screen-2xl container mx-auto xl:px-24 px-4 py-16 bg-gradient-to-b from-0% from-[#F5EDED] to-[#ECFFE6] to-100% ${isDarkMode ? 'dark' : ''}`}>
+    <div id="home" className={`max-w-screen-2xl container mx-auto xl:px-24 px-4 py-16 bg-gradient-to-b from-0% from-[#F5EDED] to-[#ECFFE6] to-100% ${isDarkMode ? 'dark' : ''}`}>
         <div className='text-center'>
             <p className='subtitle'>Customer Favorites</p>
             <h2 className='title'>Popular Catagories</h2>
